@@ -1,0 +1,588 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+/* ----------------------------- */
+/* HOME SECTION */
+/* ----------------------------- */
+.top-bar {
+    text-align: center;
+    padding: 5px 15px;
+}
+.hero-title {
+    margin: 30px 30px 25px;
+}
+.hero-right-content {
+    padding: 20px;
+    right: auto;
+    bottom: 5px;
+}
+.hero-title .second-title {
+    margin-left: 50px;
+}
+.hero-text {
+    width: 655px;
+    padding: 10px 50px;
+}
+.main-menu ul li a {
+    padding: 15px;
+}
+
+/* ----------------------------- */
+/* SECTION-1 */
+/* ----------------------------- */
+.section-1 {
+    margin-bottom: 272px;
+}
+.talk-with-clint-title {
+    margin-top: 12%;
+}
+.talk-with-clint-node {
+    margin-right: 100px;
+}
+.page-count-and-title .view-more-btn {
+    right: 8%;
+}
+.section-text-m-control-1 .text {
+    width: auto;
+}
+
+/* ----------------------------- */
+/* SECTION-2 */
+/* ----------------------------- */
+.circle-box {
+    width: 148px;
+    margin: 20px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-3 */
+/* ----------------------------- */
+.section-postion-btn {
+    top: 22%;
+}
+.content-box-title h2 {
+    width: 75%;
+}
+.content-box-title {
+    margin-bottom: 15px;
+}
+.content-box-contnet ul li {
+    margin-bottom: 8px;
+}
+.content-box-wrap {margin-left: 25px;}
+.content-box-wrap-m-control {
+    margin-left: 0px;
+}
+.content-box {
+    height: 200px;
+}
+.content-box:last-child {
+    height: 100%;
+}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+/* ----------------------------- */
+/* HOME SECTION */
+/* ----------------------------- */
+.top-bar {
+    text-align: center;
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+.main-menu ul {
+    text-align: center;
+}
+.main-menu ul li a {
+    padding: 15px;
+}
+.hero-title {
+    text-align: center;
+    margin: 25px 0px;
+}
+.hero-title h2 {
+    font-size: 30px;
+}
+.hero-text {
+    width: 81%;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 0 auto;
+}
+.hero-right-content {
+    left: 20%;
+    right: auto;
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-1 */
+/* ----------------------------- */
+.section-1 {
+    margin-bottom: 273px;
+}
+.title p {
+    font-size: 30px;
+}
+.page-count-and-title .view-more-btn {
+    right: 3%;
+}
+.section-text .text {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.section-text-m-control-1 .text {
+    width: auto;
+}
+.talk-with-clint-title {
+    margin-top: 15%;
+    font-size: 14px;
+}
+.symbel {
+    width: 70px;
+    height: 70px;
+    border-width: 10px;
+    line-height: 49px;
+}
+.data-text {
+    padding: 5px 19px;
+    letter-spacing: 0px;
+    margin-left: -18px;
+}
+.talk-with-clint-node {
+    margin-right: 100px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-3 */
+/* ----------------------------- */
+.content-box-wrap {
+    margin-left: 20px;
+}
+.content-box-title .box-view-more {
+    color: #222;
+}
+.content-box-wrap-m-control {
+    margin-left: 0px;
+}
+.content-box {
+    height: 230px;
+}
+.content-box:last-child {
+    height: auto;
+}
+.content-box-title h2 {
+    width: 85%;
+    font-size: 20px;
+}
+.section-postion-btn {
+    top: 18%;
+}
+
+
+
+/* ----------------------------- */
+/* SECTION-4 */
+/* ----------------------------- */
+.show-product-wrap-box img {
+    margin-right: 2%;
+    width: 45%;
+}
+.show-product-wrap {
+    margin-bottom: 20px;
+}
+
+
+/* ----------------------------- */
+/* QUESTION & ANS  */
+/* ----------------------------- */
+.question-ans-bg {
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.question-ans-bg .content-box-title {
+    width: 100%;
+}
+
+/* ----------------------------- */
+/* WORK WITH CLINT  */
+/* ----------------------------- */
+.work-with-client-item {
+    height: 200px;
+    padding: 15px;
+}
+
+.work-with-client-item-info h2 {
+    font-size: 20px;
+}
+
+
+/* ----------------------------- */
+/* MORE */
+/* ----------------------------- */
+.more-into-item-m-left-extra {
+    margin-left: 50px;
+}
+.more-into-item-m-left-extra {
+    margin-left: 50px;
+}
+.footer-button .footer-btn {
+    padding: 5px 25px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ #menu {
+    display:none;
+}
+.slicknav_menu {
+    display:block;
+}
+/* MENU -> text hide */
+span.slicknav_menutxt {
+    display: none !important;
+}
+
+/* ----------------------------- */
+/* HOME SECTION */
+/* ----------------------------- */
+.top-bar {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+html, body, .hero-area-bg {
+    height: 95%;
+}
+.hero-text {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+}
+.hero-title h2 {
+    font-size: 18px;
+}
+.hero-title {
+    margin: 15px 0px;
+}
+.hero-title .second-title {
+    margin: 0px;
+}
+.hero-right-content {
+    position: static;
+    padding: 5px;
+    font-size: 14px;
+    border-width: 5px;
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+
+
+
+
+/* ----------------------------- */
+/* SECTION-1 */
+/* ----------------------------- */
+.section-1 {
+    margin-bottom: 272px;
+}
+.title p {
+    font-size: 19px;
+}
+.page-count {
+    padding: 10px;
+    font-size: 30px;
+}
+.page-count:before {
+    left: -10px;
+}
+.page-count:after {
+    right: -10px;
+}
+.page-count-and-title .view-more-btn {
+    left: calc(50% - 50px);
+    right: auto;
+    bottom: -39px;
+}
+.section-text {
+    margin-top: 55px;
+}
+.section-text .text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.section-text-m-control-1 {
+    margin-top: 20px;
+}
+.section-text .text {
+    width: 100%;
+}
+.talk-with-clint-title {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 34%;
+}
+.talk-with-clint-node {
+    margin: 0px;
+}
+.symbel {
+    width: 50px;
+    height: 50px;
+    border-width: 5px;
+    line-height: 39px;
+}
+.data-text {
+    padding: 5px 10px;
+    font-size: 20px;
+    letter-spacing: normal;
+    margin-left: -17px;
+}
+.talk-with-clint-node:last-child {
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-2 */
+/* ----------------------------- */
+.circle-box {
+    margin: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.circle-wrap {
+    margin-top: 50px;
+}
+.circle-box-circle {
+    margin-bottom: 5px;
+}
+.circle-meta {
+    width: 100%;
+    height: 30px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-3 */
+/* ----------------------------- */
+.circle-box {
+    margin: 10px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.circle-wrap {
+    margin-top: 50px;
+}
+.circle-box-circle {
+    margin-bottom: 5px;
+}
+.circle-meta {
+    width: 100%;
+    height: 30px;
+}
+.content-box-wrap {margin-top: 30px;margin-left: 0px;width: 100%;}
+.content-box {
+    padding: 10px;
+}
+.content-box-title h2 {
+    width: 65%;
+    font-size: 18px;
+}
+.content-box-title .box-view-more {
+    font-size: 14px;
+}
+.content-box-wrap-m-control {
+    margin-top: 0px;
+}
+.section-postion-btn {
+    bottom: 20px;
+    top: auto;
+}
+
+
+
+/* ----------------------------- */
+/* SECTION-4 */
+/* ----------------------------- */
+.show-product-wrap-message {
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-top: 55px;
+}
+.show-product-wrap-message:after {
+    border-width: 15px;
+}
+.show-product-wrap-box {
+    margin-top: 20px;
+}
+.show-product-wrap-box img {
+    margin: 0px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.show-product-wrap-box img:last-child {
+    margin: 0px;
+}
+.show-product-wrap {
+    margin-bottom: 0px;
+}
+.show-product-wrap-box {
+    margin-bottom: 20px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-MORE */
+/* ----------------------------- */
+.show-product-wrap-box {
+    margin-bottom: 20px;
+}
+.question-ans-bg {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.question-ans-bg .content-box-title {
+    width: 100%;
+}
+.content-box-title h2 {
+    width: 69%;
+    font-size: 14px;
+}
+.qa-wrap-qa-text {
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 0px 5px 5px 5px;
+    margin: 0px;
+    display: block;
+}
+.qa-wrap-qa-circle {
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* ----------- WORK WITH CLINT ------------*/
+.work-with-client-item {
+    padding: 10px;
+    height: 186px;
+    margin-bottom: 10px;
+}
+.work-wth-client {
+    padding: 15px 0px;
+}
+
+/* -------------- FOOTER TOP INFORMATION------------ */
+.more-into-item-m-left-extra {
+    margin: 0px;
+}
+.more-info {
+    padding: 15px 0px;
+}
+.more-info-item {
+    margin: 0px;
+    margin-bottom: 14px;
+    margin-top: 21px;
+}
+.more-info {
+    text-align: center;
+}
+.more-info-item:before {
+    left: calc(50% - 67px);
+}
+
+/* -------------- FOOTER SECTION------------ */
+.footer-button .footer-btn {
+    text-align: center;
+    width: 40%;
+}
+.footer-button .footer-btn {
+    padding: 5px;
+    font-size: 20px;
+    margin: 0px;
+}
+.footer-button {
+    text-align: center;
+    margin-top: 25px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+html, body, .hero-area-bg {
+    height: 90%;
+}
+/* ----------------------------- */
+/* HOME SECTION */
+/* ----------------------------- */
+.hero-title h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.hero-title {
+    margin: 25px 0px;
+}
+.hero-right-content {
+    width: fit-content;
+}
+
+
+/* ----------------------------- */
+/* SECTION-1 */
+/* ----------------------------- */
+.talk-with-clint-title {
+    margin-top: 20%;
+}
+.data-text {
+    margin-left: -17px;
+    padding: 2px 15px;
+}
+
+
+/* ----------------------------- */
+/* SECTION-2 */
+/* ----------------------------- */
+.title p {
+    font-size: 30px;
+}
+.page-count {
+    padding: 15px;
+}
+.circle-box {
+    width: 35%;
+}
+
+
+/* ----------------------------- */
+/* SECTION-4 */
+/* ----------------------------- */
+.show-product-wrap-box img {
+    width: 45%;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+.show-product-wrap-message:after {
+    left: calc(50% - 15px);
+}
+
+
+
+
+/* ----------------------------- */
+/* MORE SECTION */
+/* ----------------------------- */
+.footer-company-info {
+    text-align: center;
+}
+
+
+}
